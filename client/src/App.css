@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+
+.home{
+	/* background: url(images/furniture.jpg) no-repeat center center fixed;
+  height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; */
+  padding: 200px;
+	background-color: #f5fcff;
+	background: url(images/homeimage.jpg) no-repeat center center fixed;
+  
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+  height: 700px;
+
+}
+
+.home-text{
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 45%;
+  padding: 20px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-radius: 20px;
+  text-align: center;
+  
+  font-family: 'Duru Sans', sans-serif;
+  
+}
+.home-text-h2{
+  font-size: 40px;
+  padding-bottom: 40px;
+}

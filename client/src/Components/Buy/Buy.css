@@ -1,0 +1,25 @@
+.buy-main{
+    background-color: #f8fbfa;
+    padding-top: 100px;
+    font-family: 'Duru Sans', sans-serif;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.buy-list{
+        display: grid;
+        margin: 20px 10px 0 10px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 1fr;
+        grid-gap: 2em;
+}
+.buy-h1{
+    font-weight: bold;
+    font-family: 'Duru Sans', sans-serif;
+
+}
+.searchbar{
+    width: 20%;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}

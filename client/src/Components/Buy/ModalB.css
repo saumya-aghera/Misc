@@ -1,0 +1,19 @@
+.modal-txt{
+    text-align: center;
+    font-family: 'Duru Sans', sans-serif;
+    
+}
+.modal-txt p{
+    font-weight: bold;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: #006a4b; */
+}
+.modal-txt h2{
+    color: #006a4b;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

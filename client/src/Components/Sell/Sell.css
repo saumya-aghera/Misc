@@ -1,0 +1,91 @@
+
+.form-sell{
+    /* border: 2px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px; */
+    /* min-width: 100%; */
+    /* height: 100%; */
+    /* border: 1px solid red; */
+   
+    /* background-color: white;
+    width: 40%; */
+    /* position:relative;  */ 
+    background-color: white;
+    border: 8px solid black;
+    width: 50%;
+    padding: 30px;
+    margin-left: 350px;
+}
+
+/* .form-sell input,textarea,select,.PhoneInput,.MultipleImageUploadComponent{
+    display: block;
+    width: 60%;
+    padding: .5rem .8rem .5rem .8rem;
+    margin: .9vw 0 ;
+    border:0;
+    border-radius: 5px;
+    position: absolute;
+    transform: translate(50%, 50%);
+    font-size: 20px;
+} */
+.form-sell input,textarea,select,.btn-submit{
+    width: 60%;
+    padding: .5rem .8rem .5rem .8rem;
+    margin: .9vw 0 ;
+    border:0.5px solid gray;
+    border-radius: 5px;
+}
+
+.Sell-Main{
+    background: url(../../images/sell-back.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sell-text{
+    font-family: 'Duru Sans', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-submit{
+    background-color: #4eb57b;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Duru Sans', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+.btn-submit:hover{
+    background-color:#006a4b;
+    transition: 0.5s;
+    color: white;
+}
+.backbtn{
+    width: 10%;
+    height: 10%;
+}
+.backicon{
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.backicon:hover{
+    color:#006a4b;
+    transition: 0.5s;
+}
+.fileInput{
+    width: 100%;
+    margin: 10px 0;
+}

@@ -1,0 +1,26 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+build-exports
+node_modules
+stats.json
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+.vscode
+
+yarn-error.log
+package-lock.json
+events.json
+lerna-debug.log
+tsconfig.tsbuildinfo
+
+.env
+
+test-report.html
+
+packages/**/.stylelintcache
+
+*.temp

@@ -1,0 +1,23 @@
+.button{
+    padding-bottom: 20px;
+}
+
+.btn-misc{
+    background-color: #4eb57b;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: 'Duru Sans', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+.btn-misc:hover{
+    background-color:#006a4b;
+    transition: 0.5s;
+    padding-left: 75px;
+    padding-right: 75px;
+    color: white;
+}
